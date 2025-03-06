@@ -1,5 +1,5 @@
 import React from 'react';
-import { Code, Server, Globe, Database } from 'lucide-react';
+import { Camera, Bot, Armchair , Swords } from 'lucide-react';
 
 const About = () => {
   return (
@@ -26,49 +26,53 @@ const About = () => {
             <h1 className="text-gray-600 mb-6">
               I'm <span className="text-brown-600 font-bold">Aysha Al Rashid</span>, a passionate data analyst and software developer from the UAE. I study at 42 Abu Dhabi and specialize in developing efficient algorithms and solving complex problems through data-driven insights.
             </h1>
-            <p className="text-gray-600 mb-8">
+            <p className="text-gray-600  mb-8">
               My journey in software development began with me starting my piscine in 42AbuDhabi. Since then, I've worked on various projects 
               ranging from system administration to graphical project, always striving to learn new technologies and improve my skills.
             </p>
             
+                <p className="text-xl text-gray-800 font-bold mb-6">
+                  What else do i do?
+                </p>
+
             <div className="grid grid-cols-2 gap-6">
               <div className="flex items-start">
                 <div className="bg-brown-600 p-3 rounded-lg mr-4">
-                  <Code size={24} className="text-brown-100" />
+                  <Camera size={24} className="text-brown-100" />
                 </div>
                 <div>
-                  <h4 className="font-bold text-gray-900">Frontend</h4>
-                  <p className="text-gray-100">Creating responsive, intuitive user interfaces</p>
+                  <h4 className="font-bold text-gray-900">Photography </h4>
+                  <p className="text-brown-800">Take random street light photographs</p>
                 </div>
               </div>
               
               <div className="flex items-start">
                 <div className="bg-brown-600 p-3 rounded-lg mr-4">
-                  <Server size={24} className="text-brown-100" />
+                  <Bot size={24} className="text-brown-100" />
                 </div>
                 <div>
-                  <h4 className="font-bold text-gray-900">Cub3D</h4>
-                  <p className="text-gray-100">A game created using raycasting technique</p>
+                  <h4 className="font-bold text-gray-900">AI tools seeker</h4>
+                  <p className="text-brown-800">Actively explore AI tools in the internet</p>
                 </div>
               </div>
               
               <div className="flex items-start">
                 <div className="bg-brown-600 p-3 rounded-lg mr-4">
-                  <Database size={24} className="text-brown-100" />
+                  <Armchair size={24} className="text-brown-100" />
                 </div>
                 <div>
-                  <h4 className="font-bold text-gray-900">System Administration</h4>
-                  <p className="text-gray-100">Used docker to connect Nginx and Wordpress with Mariadb Database</p>
+                  <h4 className="font-bold text-gray-900">Crocheter</h4>
+                  <p className="text-brown-800">Crochet patterned matterials using fine threads</p>
                 </div>
               </div>
               
               <div className="flex items-start">
                 <div className="bg-brown-600 p-3 rounded-lg mr-4">
-                  <Globe size={24} className="text-brown-100" />
+                  <Swords size={24} className="text-brown-100" />
                 </div>
                 <div>
-                  <h4 className="font-bold text-gray-900">Minishell</h4>
-                  <p className="text-gray-100">Implemented my own shell using C language</p>
+                  <h4 className="font-bold text-gray-900">Action Maze Chase</h4>
+                  <p className="text-brown-800">Amazing mind challenges that keeps the mind active</p>
                 </div>
               </div>
             </div>

@@ -25,6 +25,7 @@ const Skills = () => {
     'Attention to Detail',
     'Project Management',
     'Leadership',
+    'Self-Movitator'
   ];
 
   return (

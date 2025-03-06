@@ -16,6 +16,9 @@ export default {
           800: '#38210F',
           900: '#27150A',
         },// Adding custom brown color
+        vanilla:{
+          100: '#d2c1aa',          
+        }
       },
     },
   },

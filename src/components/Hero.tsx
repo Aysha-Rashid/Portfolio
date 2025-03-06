@@ -3,18 +3,17 @@ import { Github, Linkedin, Mail, ArrowDown } from 'lucide-react';
 
 const Hero = () => {
   return (
-    <section id="home" className="pt-24 pb-16 md:pt-32 md:pb-24 bg-gradient-to-br from-white-900 to-white">
+    <section id="home" className="pt-24 pb-16 md:pt-32 md:pb-24 bg-gradient-to-br from-white-100 to-white">
       <div className="container mx-auto px-20 flex flex-col md:flex-row items-center">
         <div className="md:w-1/2 mb-10 md:mb-0">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-800 mb-4">
             Hi, I'm <span className="text-brown-600">Aysha Al Rashid</span>
           </h1>
           <h2 className="text-2xl md:text-3xl font-medium text-gray-600 mb-6">
-            Software Developer
+            Software Developer and Passionate Analytic Thinker
           </h2>
           <p className="text-lg text-gray-600 mb-8 max-w-lg">
-            I build exceptional digital experiences with clean, efficient code. 
-            Passionate about creating solutions that make a difference.
+            Passionate developer with curiousity to explore different AI algorithms and create solutions to problems.
           </p>
           
           <div className="flex space-x-4 mb-8">
