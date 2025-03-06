@@ -32,16 +32,17 @@ const Hero = () => {
               rel="noopener noreferrer"
               className="p-2 bg-blue-600 text-white rounded-full hover:bg-blue-700 transition-colors"
               aria-label="LinkedIn"
-            >
+              >
               <Linkedin size={30} />
             </a>
             <a 
               href="aysharashid2019@gmail.com" 
               className="p-2 bg-brown-500 text-white rounded-full hover:bg-brown-600 transition-colors"
               aria-label="Email"
-            >
+              >
               <Mail size={30} />
             </a>
+              className="p-2 bg-blue-600 text-white rounded-full hover:bg-brown-700 transition-colors"
             <a href="/Portfolio/assets/CV.pdf" download="Aysha_CV.pdf">Download My CV</a>
           </div>
           
