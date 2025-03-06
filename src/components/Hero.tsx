@@ -42,7 +42,7 @@ const Hero = () => {
             >
               <Mail size={30} />
             </a>
-            <a href="/cv.pdf" download="Aysha_CV.pdf">Download My CV</a>
+            <a href="/Portfolio/assets/CV.pdf" download="Aysha_CV.pdf">Download My CV</a>
           </div>
           
           <div className="flex space-x-4">
