@@ -15,7 +15,7 @@ const About = () => {
           {/* <div className="w-600 h-80 md:w-100 md:h-80 rounded-lg overflow-hidden shadow-xl"> */}
           <div className="w-[400px] h-[500px] md:w-[400px] md:h-[500px] rounded-lg overflow-hidden shadow-xl">
             <img 
-              src="./assets/image/Outside42.jpeg" 
+              src="../../imageStore/image/Outside42.jpeg" 
               alt="outside of 42" 
               className="w-full h-full object-cover"
             />
