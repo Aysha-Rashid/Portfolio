@@ -29,6 +29,9 @@ const About = () => {
             <p className="text-gray-600  mb-8">
               My journey in software development began with me starting my piscine in 42AbuDhabi. Since then, I've worked on various projects 
               ranging from system administration to graphical project, always striving to learn new technologies and improve my skills.
+              At first, I used to get frustrated when stuck on a bug. Now, I take breaks and return with a fresh perspective. 
+              This change in mindset has made me more patient and effective at debugging.
+              Now my goal is to get better at writing efficient algorithms. For the next project, I’ll focus on optimizing my code and using better data structures.
             </p>
             
                 <p className="text-xl text-gray-800 font-bold mb-6">
