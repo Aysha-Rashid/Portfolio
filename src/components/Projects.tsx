@@ -19,7 +19,7 @@ const Projects = () => {
       id: 2,
       title: 'Cub3d',
       description: 'Built a Wolfenstein 3D-style game engine using C and MiniLibX, implementing a raycasting algorithm to create a pseudo-3D environment from a 2D map. This project deepened my understanding of computer graphics, mathematics, and game engines.',
-      image: '../../imageStore/re/image/Cub3d.gif',
+      image: '../../imageStore/image/Cub3d.gif',
       technologies: ['C', 'Raycasting algorithm', 'DFS algorithm', 'Minilibx lib', 'low-level graphics programming'],
       category: 'Graphic',
       // liveUrl: 'https://example.com/project2',
