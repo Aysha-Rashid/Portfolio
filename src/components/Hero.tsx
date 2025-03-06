@@ -42,7 +42,6 @@ const Hero = () => {
               >
               <Mail size={30} />
             </a>
-              className="p-2 bg-blue-600 text-white rounded-full hover:bg-brown-700 transition-colors"
             <a href="/Portfolio/assets/CV.pdf" download="Aysha_CV.pdf">Download My CV</a>
           </div>
           
