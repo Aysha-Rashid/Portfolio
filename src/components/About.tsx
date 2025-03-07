@@ -4,16 +4,23 @@ import { Camera, Bot, Armchair , Swords } from 'lucide-react';
 const About = () => {
   return (
     <section id="about" className="py-20 bg-white">
-      <div className="container mx-auto px-20">
+      <div className="absolute bottom-2 left-1/2 transform -translate-x-1/2 w-100 h-30">
+        <img 
+          src="/Portfolio/assets/stick.gif" 
+          alt="Stick GIF" 
+          className="w-full h-full object-contain"
+        />
+        </div>
+      <div className="container mx-auto px-10">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-brown-600 mb-4">About Me</h2>
-          <div className="w-20 h-1 bg-indigo-600 mx-auto"></div>
+          <div className="w-20 h-1 bg-vanilla-100 mx-auto"></div>
         </div>
         
-        <div className="flex flex-col md:flex-row items-center justify-center gap-8">
+        <div className="flex flex-col md:flex-row items-center justify-center gap-4">
           {/* Image Section */}
           {/* <div className="w-600 h-80 md:w-100 md:h-80 rounded-lg overflow-hidden shadow-xl"> */}
-          <div className="w-[400px] h-[500px] md:w-[400px] md:h-[500px] rounded-lg overflow-hidden shadow-xl">
+          <div className="w-[400px] h-[500px] md:w-[400px] md:h-[600px] rounded-lg overflow-hidden shadow-xl">
             <img 
               src="/Portfolio/assets/outside42.jpeg" 
               alt="outside of 42" 
@@ -41,7 +48,7 @@ const About = () => {
             <div className="grid grid-cols-2 gap-6">
               <div className="flex items-start">
                 <div className="bg-brown-600 p-3 rounded-lg mr-4">
-                  <Camera size={24} className="text-brown-100" />
+                  <Camera size={24} className="text-vanilla-100" />
                 </div>
                 <div>
                   <h4 className="font-bold text-gray-900">Photography </h4>
@@ -51,7 +58,7 @@ const About = () => {
               
               <div className="flex items-start">
                 <div className="bg-brown-600 p-3 rounded-lg mr-4">
-                  <Bot size={24} className="text-brown-100" />
+                  <Bot size={24} className="text-vanilla-100" />
                 </div>
                 <div>
                   <h4 className="font-bold text-gray-900">AI tools seeker</h4>
@@ -61,7 +68,7 @@ const About = () => {
               
               <div className="flex items-start">
                 <div className="bg-brown-600 p-3 rounded-lg mr-4">
-                  <Armchair size={24} className="text-brown-100" />
+                  <Armchair size={24} className="text-vanilla-100" />
                 </div>
                 <div>
                   <h4 className="font-bold text-gray-900">Crocheter</h4>
@@ -71,7 +78,7 @@ const About = () => {
               
               <div className="flex items-start">
                 <div className="bg-brown-600 p-3 rounded-lg mr-4">
-                  <Swords size={24} className="text-brown-100" />
+                  <Swords size={24} className="text-vanilla-100" />
                 </div>
                 <div>
                   <h4 className="font-bold text-gray-900">Action Maze Chase</h4>

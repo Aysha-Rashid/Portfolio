@@ -81,6 +81,13 @@ const Hero = () => {
           <ArrowDown size={60} className="text-white" />
         </a>
       </div>
+      {/* <div className="absolute bottom-2 left-1/2 transform -translate-x-1/2 w-100 h-30">
+        <img 
+          src="/Portfolio/assets/stick.gif" 
+          alt="Stick GIF" 
+          className="w-full h-full object-contain"
+        /> */}
+      </div>
     </section>
   );
 };

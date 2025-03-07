@@ -33,7 +33,7 @@ const Skills = () => {
       <div className="container mx-auto px-20">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-brown-600 mb-4">My Skills</h2>
-          <div className="w-20 h-1 bg-indigo-600 mx-auto"></div>
+          <div className="w-20 h-1 bg-vanilla-100 mx-auto"></div>
           <p className="mt-10 text-gray-600 max-w-2xl mx-auto">
             Here are some of the technologies and skills I've learned throughout my journey in 42AbuDhabi.
           </p>
