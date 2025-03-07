@@ -8,9 +8,8 @@ const About = () => {
         <img 
           src="/Portfolio/assets/stick.gif" 
           alt="Stick GIF" 
-          className="w-full h-full object-contain"
-        />
-        </div>
+          className="w-full h-full object-contain"/>
+      </div>
       <div className="container mx-auto px-10">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-brown-600 mb-4">About Me</h2>
